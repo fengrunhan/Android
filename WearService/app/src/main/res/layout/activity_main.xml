@@ -20,24 +20,20 @@
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
             android:text="@string/hello_world" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
             android:id="@+id/button"
-            android:text="开启服务"
+            android:text="开启"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="关闭服务"
-            android:id="@+id/button2"
-            />
+
 
     </FrameLayout>
+
 </android.support.wear.widget.BoxInsetLayout>
 
